@@ -6,14 +6,8 @@ This Go-based currency/banking service provides a simple REST API to retrieve us
 
 - [Overview](#overview)  
 - [Features](#features)  
-- [File Structure](#file-structure)  
 - [Prerequisites](#prerequisites)  
 - [Installation](#installation)  
-- [Usage](#usage)  
-- [API Reference](#api-reference)  
-- [Mock Database](#mock-database)  
-- [Logging](#logging)  
-- [License](#license)
 
 ---
 
@@ -42,3 +36,15 @@ This service starts an HTTP server on `localhost:8000` and exposes endpoints tha
 
 - Go 1.18+ (or a version that supports Go modules)
 - Internet access for fetching Go dependencies
+
+---
+
+## Installation
+
+1. **Clone the repository**:
+   git clone https://github.com/Drake-Programming/go-currency-api.git
+   cd go-currency-api
+2. **Install Dependencies**:
+   go mod download
+4. **Build**:
+   go build ./cmd/api
