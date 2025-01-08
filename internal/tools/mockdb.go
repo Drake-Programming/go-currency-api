@@ -25,19 +25,19 @@ var mockLoginDetails = map[string]LoginDetails{
 
 var mockBankDetails = map[string]BankDetails{
 	"robert": {
-		Balance:  "100",
+		Balance:  100,
 		Username: "robert",
 	},
 	"lauren": {
-		Balance:  "200",
+		Balance:  200,
 		Username: "lauren",
 	},
 	"kendall": {
-		Balance:  "300",
+		Balance:  300,
 		Username: "kendall",
 	},
 	"matt": {
-		Balance:  "400",
+		Balance:  400,
 		Username: "matt",
 	},
 }
